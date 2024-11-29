@@ -23,7 +23,7 @@ message RegisterResponse {
 
 // LoginRequest contains the email and password for a user to login.
 message LoginRequest {
-    string token = 1; // token is the auth token of the logged in user.
+    string email = 1; // email is the email address of the user to login
     string password = 2; // password is the password of the user to login
     string app_id = 3; // app_id is the ID of the application to login
 }
